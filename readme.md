@@ -23,6 +23,12 @@ Build the project and run the builded file or download the release and run it. T
 
 By default, the server runs at port 5200, you can change this by adding a second argument to the executable. For example, to run the server on port 8080, you can run `executable.exe 8080`.
 
+To open the desired url in mpv, you can use the following url:
+
+```http
+http://hostname:port/play?url=media_url
+```
+
 # Disclaimer
 
 This is just a very basic, simple, and not aimed to be the safest or the most efficient. While the script (executing mpv) can only be triggred from a configured allowed hostname, safety is not guaranteed since no vulnerability tests were made. So please use this at your own risk.
