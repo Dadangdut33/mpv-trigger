@@ -1,0 +1,4 @@
+# Write your allowed hosts here, one per line
+# Example:
+# youtube.com
+# 192.168.x.x

@@ -1,0 +1,28 @@
+{
+  "name": "mpv-trigger",
+  "version": "1.0.0",
+  "bin": "server.js",
+  "pkg": {
+    "assets": [
+      "allowed_hosts.txt" 
+    ],
+    "targets": [
+      "node16-win-x64",
+      "node16-linux-x64",
+      "node16-macos-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "pkg ."
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "pkg": "^5.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
