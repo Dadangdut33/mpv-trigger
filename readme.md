@@ -26,7 +26,7 @@ By default, the server runs at port 5200, you can change this by adding a second
 To open the desired url in mpv, you can use the following url:
 
 ```http
-http://hostname:port/play?url=media_url
+http://localhost:port/play?url=media_url
 ```
 
 # Disclaimer
